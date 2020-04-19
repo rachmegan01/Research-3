@@ -1,0 +1,116 @@
+img{
+	position: relative;
+	top: 10px;
+	margin: 0;
+	padding: 0;
+}
+.image{
+	background-image: url('image/header_design.png');
+	background-repeat: no-repeat;
+	height: 200px;
+	align-content: center;
+	padding-top:100px;
+	padding-right: 20px;
+	padding-left: 40px;
+	margin:0;
+
+}
+.header{
+	position: static;
+	top: 20px;
+	padding:30px;
+	text-align: center;
+	background:#BAACA9;
+	color: white;
+	font-size: 30px;
+	width: 100%;
+
+}
+.style{
+	background-image: url(image/background.jpg);
+	background-repeat: no-repeat;
+  	position: relative;
+  	width: 85%;
+  	height: 610px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	position: center;
+}
+
+.footer{
+	position: static;
+	padding: 60px;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
+	height: 150;
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	max-width: 400px;
+}
+
+.container .btn1{
+	position: absolute;
+	top: 20%;
+	left: 130%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #555;
+	color: white;
+	font-size: 16px;
+	padding:72px 144px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+	opacity: 75%;
+}
+.container .btn1:hover{
+	background-color: purple;
+}
+
+
+.container .btn{
+	position: absolute;
+	bottom: 1000px;
+	left: 130%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #555;
+	color: white;
+	font-size: 16px;
+	padding:72px 144px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+	opacity: 75%;
+}
+.container .btn:hover{
+	background-color: blue;
+}
+
+
+.container .btn3{
+	position: absolute;
+	bottom: 600px;
+	left: 130%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #555;
+	color: white;
+	font-size: 16px;
+	padding:72px 144px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+	opacity: 75%;
+}
+.container .btn3:hover{
+	background-color: pink;
+}
